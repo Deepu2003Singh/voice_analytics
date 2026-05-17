@@ -1,0 +1,20 @@
+flask>=3.0.0
+flask-cors>=4.0.0
+werkzeug>=3.0.0
+
+# Transcription
+faster-whisper>=1.0.0
+
+# Sentiment
+vaderSentiment>=3.3.2
+
+# Summarisation (local)
+transformers>=4.40.0
+torch>=2.0.0
+sentencepiece>=0.2.0
+
+# Optional cloud summarisation
+openai>=1.30.0
+
+# Audio file handling (optional but recommended)
+soundfile>=0.12.1

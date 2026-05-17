@@ -1,0 +1,424 @@
+{
+  "duration_seconds": 287.65,
+  "word_count": 687,
+  "transcript": "Hello and welcome to the foods of revolution. Growth, challenges and solutions are involved with your host and today will be exploring the transformation of a South East Asian country, experiencing rapid growth and increase in urbanization and a major environmental and social challenges. Our focus today isn't Vietnam. Joining me today is Hosh, who has been researching this topic in detail. Welcome Hosh. I'm excited to be here and share some of the things I've learned. So let's begin with some of the basics. Where exactly is Vietnam located? So Vietnam is situated in Southeast Asia along the eastern edge of the Hindu-Chinese Peninsula. It shares borders with China to the north, to the north, to the northwest, and Cambodia to the southwest. The country also has long east and coastline along the South China Sea. Let's dive deep off. What is the population of Vietnam today? As of 2025, Vietnam has a population of approximately 101.6 million people. Around 41% of that population lives in urban areas, and that number is still rising. The two most densely populated series are Hosh and Mercedes City and Hanoi. Then that's a core of large population. Do you think it changed over time? Oh, most definitely. Over the past five decades, Vietnam's population has increased significantly. In 1980, the population was around 54 million by 2078 million. In 2020, it was over 97 million. Urbanization has increased as well. In 1980, it was only about 90% of the people living in the city. Now that number is more than doubled, this shows a major internal migration trend from rural to urban areas. That's a dramatic shift. What are some of the main reasons why people are living in rural areas and moving into larger, bigger cities? Well, there are several factors to it, but one important push factor is rural poverty. Many people in farming areas show poor soil, low crop yields, and limited job opportunities. Climate change also made life harder in rural Vietnam. For example, the Mekong Delta is experiencing floods and soil intrusion that damage crops. As for the poor factors, cities offer higher wages, better health care, education, and more in services. Many people might get for jobs in factories and service industries, especially in places like Ho Chi Minh City and Da Nang. Now with this rapid growth, there must definitely be some consequences. What are some of them? There are in fact several in the effect the economy, society, and environment. Economically, urbanization has helped Vietnam growth. The country has become a global manufacturing hub. However, rural migrants often live in crowded conditions and work on stable jobs. The benefits are now shared equally. Initially, there are challenges such as overcrowded schools and hospitals. Traffic congestion is also a serious problem, especially in Ho Chi Minh City and Hanoi. Environmentally, there are high levels of air pollution, deforestation, and waste. A study found that Hanoi pollution levels often exceed the safest limits set by the World Health Organization. Urban sprawl also contributes to lots of green spaces and rising temperatures. How does urbanization creates opportunities for people? It also creates significant problems, right? Yep. So, if you had to choose one of these issues to solve, which one would be and what would you do? Well, personally, health focus and reducing air pollution. One main strategy Vietnam could adopt is investing in electric public transportation, encouraging use of bicycles, bicycles, and buses over motorbikes. A good example is this Bogota in Colombia, the rapid bus transit systems, and dedicated cycling lanes reduce pollution and improve mobility. If Vietnam introduces a similar model, it could reduce both pollution and traffic congestion. That sounds like a very practical and effective solution. Well, that brings us to the end of today's episode. Thank you so much, Harsh, for your time and insights. Thank you for having me, Bavya. Now, urbanization is changing in Vietnam in many ways. Valley brings economic progress, it also creates challenges. With thoughtful planning and smart strategies, countries like Vietnam can grow sustainably. Thank you for listening to Fields of Revolution.",
+  "segments": [
+    {
+      "start": 4.85,
+      "end": 8.09,
+      "text": "Hello and welcome to the foods of revolution.",
+      "speaker": "Agent",
+      "sentiment_score": 0.4588
+    },
+    {
+      "start": 8.09,
+      "end": 23.85,
+      "text": "Growth, challenges and solutions are involved with your host and today will be exploring the transformation of a South East Asian country, experiencing rapid growth and increase in urbanization and a major environmental and social challenges.",
+      "speaker": "Customer",
+      "sentiment_score": 0.8316
+    },
+    {
+      "start": 23.85,
+      "end": 33.85,
+      "text": "Our focus today isn't Vietnam. Joining me today is Hosh, who has been researching this topic in detail. Welcome Hosh.",
+      "speaker": "Agent",
+      "sentiment_score": 0.4588
+    },
+    {
+      "start": 33.85,
+      "end": 37.85,
+      "text": "I'm excited to be here and share some of the things I've learned.",
+      "speaker": "Customer",
+      "sentiment_score": 0.5574
+    },
+    {
+      "start": 37.85,
+      "end": 42.85,
+      "text": "So let's begin with some of the basics. Where exactly is Vietnam located?",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 42.85,
+      "end": 52.85,
+      "text": "So Vietnam is situated in Southeast Asia along the eastern edge of the Hindu-Chinese Peninsula. It shares borders with China to the north, to the north, to the northwest, and Cambodia to the southwest.",
+      "speaker": "Customer",
+      "sentiment_score": 0.296
+    },
+    {
+      "start": 52.85,
+      "end": 59.16,
+      "text": "The country also has long east and coastline along the South China Sea.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 59.16,
+      "end": 64.16,
+      "text": "Let's dive deep off. What is the population of Vietnam today?",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 64.16,
+      "end": 71.16,
+      "text": "As of 2025, Vietnam has a population of approximately 101.6 million people.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 71.16,
+      "end": 77.16,
+      "text": "Around 41% of that population lives in urban areas, and that number is still rising.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0772
+    },
+    {
+      "start": 77.16,
+      "end": 82.16,
+      "text": "The two most densely populated series are Hosh and Mercedes City and Hanoi.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 82.16,
+      "end": 86.16,
+      "text": "Then that's a core of large population. Do you think it changed over time?",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 86.16,
+      "end": 93.16,
+      "text": "Oh, most definitely. Over the past five decades, Vietnam's population has increased significantly.",
+      "speaker": "Agent",
+      "sentiment_score": 0.624
+    },
+    {
+      "start": 93.16,
+      "end": 98.16,
+      "text": "In 1980, the population was around 54 million by 2078 million.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 98.16,
+      "end": 104.16,
+      "text": "In 2020, it was over 97 million. Urbanization has increased as well.",
+      "speaker": "Agent",
+      "sentiment_score": 0.4939
+    },
+    {
+      "start": 104.16,
+      "end": 107.16,
+      "text": "In 1980, it was only about 90% of the people living in the city.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 107.16,
+      "end": 113.16,
+      "text": "Now that number is more than doubled, this shows a major internal migration trend from rural to urban areas.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0772
+    },
+    {
+      "start": 113.16,
+      "end": 122.16,
+      "text": "That's a dramatic shift. What are some of the main reasons why people are living in rural areas and moving into larger, bigger cities?",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 122.16,
+      "end": 128.16,
+      "text": "Well, there are several factors to it, but one important push factor is rural poverty.",
+      "speaker": "Agent",
+      "sentiment_score": -0.4019
+    },
+    {
+      "start": 128.16,
+      "end": 134.16,
+      "text": "Many people in farming areas show poor soil, low crop yields, and limited job opportunities.",
+      "speaker": "Customer",
+      "sentiment_score": -0.5423
+    },
+    {
+      "start": 134.16,
+      "end": 138.16,
+      "text": "Climate change also made life harder in rural Vietnam.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 138.16,
+      "end": 144.16,
+      "text": "For example, the Mekong Delta is experiencing floods and soil intrusion that damage crops.",
+      "speaker": "Customer",
+      "sentiment_score": -0.4939
+    },
+    {
+      "start": 144.16,
+      "end": 153.16,
+      "text": "As for the poor factors, cities offer higher wages, better health care, education, and more in services.",
+      "speaker": "Agent",
+      "sentiment_score": 0.4588
+    },
+    {
+      "start": 153.16,
+      "end": 162.16,
+      "text": "Many people might get for jobs in factories and service industries, especially in places like Ho Chi Minh City and Da Nang.",
+      "speaker": "Customer",
+      "sentiment_score": 0.4144
+    },
+    {
+      "start": 162.16,
+      "end": 168.16,
+      "text": "Now with this rapid growth, there must definitely be some consequences. What are some of them?",
+      "speaker": "Agent",
+      "sentiment_score": 0.6486
+    },
+    {
+      "start": 168.16,
+      "end": 173.16,
+      "text": "There are in fact several in the effect the economy, society, and environment.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 173.16,
+      "end": 176.16,
+      "text": "Economically, urbanization has helped Vietnam growth.",
+      "speaker": "Agent",
+      "sentiment_score": 0.3818
+    },
+    {
+      "start": 176.16,
+      "end": 185.16,
+      "text": "The country has become a global manufacturing hub. However, rural migrants often live in crowded conditions and work on stable jobs.",
+      "speaker": "Customer",
+      "sentiment_score": 0.296
+    },
+    {
+      "start": 185.16,
+      "end": 188.16,
+      "text": "The benefits are now shared equally.",
+      "speaker": "Agent",
+      "sentiment_score": 0.6124
+    },
+    {
+      "start": 188.16,
+      "end": 197.16,
+      "text": "Initially, there are challenges such as overcrowded schools and hospitals. Traffic congestion is also a serious problem, especially in Ho Chi Minh City and Hanoi.",
+      "speaker": "Customer",
+      "sentiment_score": -0.4019
+    },
+    {
+      "start": 197.16,
+      "end": 202.16,
+      "text": "Environmentally, there are high levels of air pollution, deforestation, and waste.",
+      "speaker": "Agent",
+      "sentiment_score": -0.4215
+    },
+    {
+      "start": 202.16,
+      "end": 210.16,
+      "text": "A study found that Hanoi pollution levels often exceed the safest limits set by the World Health Organization.",
+      "speaker": "Customer",
+      "sentiment_score": 0.4019
+    },
+    {
+      "start": 210.16,
+      "end": 215.16,
+      "text": "Urban sprawl also contributes to lots of green spaces and rising temperatures.",
+      "speaker": "Agent",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 215.16,
+      "end": 222.16,
+      "text": "How does urbanization creates opportunities for people? It also creates significant problems, right?",
+      "speaker": "Customer",
+      "sentiment_score": 0.644
+    },
+    {
+      "start": 222.16,
+      "end": 223.16,
+      "text": "Yep.",
+      "speaker": "Agent",
+      "sentiment_score": 0.296
+    },
+    {
+      "start": 223.16,
+      "end": 229.16,
+      "text": "So, if you had to choose one of these issues to solve, which one would be and what would you do?",
+      "speaker": "Customer",
+      "sentiment_score": 0.2023
+    },
+    {
+      "start": 229.16,
+      "end": 233.16,
+      "text": "Well, personally, health focus and reducing air pollution.",
+      "speaker": "Agent",
+      "sentiment_score": 0.2732
+    },
+    {
+      "start": 233.16,
+      "end": 242.16,
+      "text": "One main strategy Vietnam could adopt is investing in electric public transportation, encouraging use of bicycles, bicycles, and buses over motorbikes.",
+      "speaker": "Customer",
+      "sentiment_score": 0.6249
+    },
+    {
+      "start": 242.16,
+      "end": 252.16,
+      "text": "A good example is this Bogota in Colombia, the rapid bus transit systems, and dedicated cycling lanes reduce pollution and improve mobility.",
+      "speaker": "Agent",
+      "sentiment_score": 0.8316
+    },
+    {
+      "start": 252.16,
+      "end": 260.16,
+      "text": "If Vietnam introduces a similar model, it could reduce both pollution and traffic congestion.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 260.16,
+      "end": 266.16,
+      "text": "That sounds like a very practical and effective solution. Well, that brings us to the end of today's episode.",
+      "speaker": "Agent",
+      "sentiment_score": 0.8505
+    },
+    {
+      "start": 266.16,
+      "end": 269.16,
+      "text": "Thank you so much, Harsh, for your time and insights.",
+      "speaker": "Customer",
+      "sentiment_score": -0.1725
+    },
+    {
+      "start": 269.16,
+      "end": 271.16,
+      "text": "Thank you for having me, Bavya.",
+      "speaker": "Agent",
+      "sentiment_score": 0.3612
+    },
+    {
+      "start": 271.16,
+      "end": 275.16,
+      "text": "Now, urbanization is changing in Vietnam in many ways.",
+      "speaker": "Customer",
+      "sentiment_score": 0.0
+    },
+    {
+      "start": 275.16,
+      "end": 279.16,
+      "text": "Valley brings economic progress, it also creates challenges.",
+      "speaker": "Agent",
+      "sentiment_score": 0.6369
+    },
+    {
+      "start": 279.16,
+      "end": 284.16,
+      "text": "With thoughtful planning and smart strategies, countries like Vietnam can grow sustainably.",
+      "speaker": "Customer",
+      "sentiment_score": 0.7783
+    },
+    {
+      "start": 284.16,
+      "end": 287.16,
+      "text": "Thank you for listening to Fields of Revolution.",
+      "speaker": "Agent",
+      "sentiment_score": 0.3612
+    }
+  ],
+  "summary": {
+    "text": "What is the population of Vietnam today? Around 41% of that population lives in urban areas, and that number is still rising. Growth, challenges and solutions are involved with your host and today will be exploring the transformation of a South East Asian country, experiencing rapid growth and increase in urbanization and a major environmental and social challenges. Economically, urbanization has helped Vietnam growth. Climate change also made life harder in rural Vietnam.",
+    "bullets": [
+      "What is the population of Vietnam today?",
+      "Around 41% of that population lives in urban areas, and that number is still rising.",
+      "Growth, challenges and solutions are involved with your host and today will be exploring the transformation of a South East Asian country, experiencing rapid growth and increase in urbanization and a major environmental and social challenges.",
+      "Economically, urbanization has helped Vietnam growth.",
+      "Climate change also made life harder in rural Vietnam."
+    ],
+    "engine": "extractive-fallback"
+  },
+  "sentiment": {
+    "overall": {
+      "compound": 0.998,
+      "positive": 0.183,
+      "neutral": 0.77,
+      "negative": 0.048,
+      "label": "Positive"
+    },
+    "customer": {
+      "average": 0.153,
+      "label": "Neutral",
+      "sample_count": 23
+    },
+    "agent": {
+      "average": 0.292,
+      "label": "Positive",
+      "sample_count": 24
+    },
+    "trajectory": [
+      {
+        "phase": "Start",
+        "score": 0.253,
+        "label": "Positive"
+      },
+      {
+        "phase": "Middle",
+        "score": 0.07,
+        "label": "Neutral"
+      },
+      {
+        "phase": "End",
+        "score": 0.333,
+        "label": "Positive"
+      }
+    ]
+  },
+  "kpis": {
+    "customer_satisfaction": {
+      "score": 58,
+      "label": "Medium",
+      "positive_cue_count": 4,
+      "negative_cue_count": 4
+    },
+    "agent_performance": {
+      "score": 55,
+      "label": "Adequate",
+      "good_behaviours_used": 0,
+      "poor_behaviours_used": 0,
+      "filler_word_count": 2,
+      "talk_ratio": 0.42
+    },
+    "conversation_metrics": {
+      "duration_seconds": 287.65,
+      "duration_minutes": 4.79,
+      "turn_count": 47,
+      "agent_word_count": 287,
+      "customer_word_count": 400,
+      "words_per_minute": 143.3
+    },
+    "top_keywords": [
+      "vietnam",
+      "also",
+      "population",
+      "people",
+      "urbanization",
+      "some",
+      "rural",
+      "pollution",
+      "growth",
+      "challenges"
+    ],
+    "context_specific": {}
+  },
+  "job_id": "6d8eef94e944",
+  "context": "general",
+  "filename": "Call_Recording.mp3",
+  "analyzed_at": "2026-05-17T15:12:39.352068"
+}

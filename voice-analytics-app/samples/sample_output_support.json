@@ -1,0 +1,81 @@
+{
+  "job_id": "a7c3f9d12b4e",
+  "context": "support",
+  "filename": "sample_support_call.mp3",
+  "analyzed_at": "2026-05-16T10:42:18.219Z",
+  "duration_seconds": 192.4,
+  "word_count": 187,
+  "transcript": "Thank you for calling NovaPay support, this is Priya speaking. How can I help you today? Hi Priya, yeah, I'm calling because my last invoice charged me twice for the same month. It's really frustrating, I've been a customer for three years and this has never happened. I completely understand, and I apologise for the inconvenience. Let me look into your account right away. Can you confirm the email address on the account? Yeah, it's r.mehta at gmail dot com. Thank you. I can see the duplicate charge here — there were two transactions on the eighth of May. I'll process a refund for the duplicate amount right now, and it should reflect in your account in three to five business days. Oh wow, that was fast. Thank you so much, I really appreciate it. Happy to help. Just to confirm, I'm also adding a note on your account so this doesn't happen again. Is there anything else I can help you with? No, that's perfect. Honestly, great service. Thanks again. Thank you for your patience, have a wonderful day.",
+  "segments": [
+    { "start": 0.0,   "end": 5.2,   "speaker": "Agent",    "text": "Thank you for calling NovaPay support, this is Priya speaking. How can I help you today?", "sentiment_score":  0.762 },
+    { "start": 5.6,  "end": 19.8,  "speaker": "Customer", "text": "Hi Priya, yeah, I'm calling because my last invoice charged me twice for the same month. It's really frustrating, I've been a customer for three years and this has never happened.", "sentiment_score": -0.515 },
+    { "start": 20.4, "end": 33.1,  "speaker": "Agent",    "text": "I completely understand, and I apologise for the inconvenience. Let me look into your account right away. Can you confirm the email address on the account?", "sentiment_score":  0.296 },
+    { "start": 33.5, "end": 37.0,  "speaker": "Customer", "text": "Yeah, it's r.mehta at gmail dot com.", "sentiment_score": 0.0 },
+    { "start": 37.4, "end": 60.2,  "speaker": "Agent",    "text": "Thank you. I can see the duplicate charge here — there were two transactions on the eighth of May. I'll process a refund for the duplicate amount right now, and it should reflect in your account in three to five business days.", "sentiment_score":  0.402 },
+    { "start": 60.6, "end": 67.1,  "speaker": "Customer", "text": "Oh wow, that was fast. Thank you so much, I really appreciate it.", "sentiment_score":  0.834 },
+    { "start": 67.5, "end": 85.0,  "speaker": "Agent",    "text": "Happy to help. Just to confirm, I'm also adding a note on your account so this doesn't happen again. Is there anything else I can help you with?", "sentiment_score":  0.681 },
+    { "start": 85.4, "end": 93.0,  "speaker": "Customer", "text": "No, that's perfect. Honestly, great service. Thanks again.", "sentiment_score":  0.880 },
+    { "start": 93.4, "end": 99.0,  "speaker": "Agent",    "text": "Thank you for your patience, have a wonderful day.", "sentiment_score":  0.792 }
+  ],
+  "summary": {
+    "text": "Customer R. Mehta called NovaPay support to report being charged twice on the May 8th invoice. Agent Priya verified the account, confirmed the duplicate transaction, and initiated a refund expected within 3–5 business days. A note was added to the account to prevent recurrence. The customer expressed strong satisfaction with the speed of resolution.",
+    "bullets": [
+      "Customer reported a duplicate charge on the May 8th invoice.",
+      "Agent Priya verified the account by email and confirmed the duplicate transaction.",
+      "A refund was initiated, expected to reflect in 3–5 business days.",
+      "A preventative note was added to the customer's account.",
+      "Customer ended the call with explicit positive feedback about the service."
+    ],
+    "engine": "distilbart-cnn"
+  },
+  "sentiment": {
+    "overall": {
+      "compound": 0.481,
+      "positive": 0.218,
+      "neutral":  0.736,
+      "negative": 0.046,
+      "label": "Positive"
+    },
+    "customer": { "average":  0.300, "label": "Positive", "sample_count": 4 },
+    "agent":    { "average":  0.587, "label": "Positive", "sample_count": 5 },
+    "trajectory": [
+      { "phase": "Start",  "score": 0.181, "label": "Neutral"  },
+      { "phase": "Middle", "score": 0.134, "label": "Neutral"  },
+      { "phase": "End",    "score": 0.784, "label": "Positive" }
+    ]
+  },
+  "kpis": {
+    "customer_satisfaction": {
+      "score": 78,
+      "label": "High",
+      "positive_cue_count": 5,
+      "negative_cue_count": 2
+    },
+    "agent_performance": {
+      "score": 84,
+      "label": "Strong",
+      "good_behaviours_used": 6,
+      "poor_behaviours_used": 0,
+      "filler_word_count": 0,
+      "talk_ratio": 0.58
+    },
+    "conversation_metrics": {
+      "duration_seconds": 192.4,
+      "duration_minutes": 3.21,
+      "turn_count": 9,
+      "agent_word_count": 116,
+      "customer_word_count": 71,
+      "words_per_minute": 58.3
+    },
+    "top_keywords": [
+      "account", "charge", "duplicate", "refund", "invoice",
+      "customer", "business", "service", "transactions", "patience"
+    ],
+    "context_specific": {
+      "resolution_signals": 1,
+      "escalation_requested": false,
+      "likely_resolved": true,
+      "top_customer_concerns": ["invoice", "charged", "frustrating", "month", "customer"]
+    }
+  }
+}

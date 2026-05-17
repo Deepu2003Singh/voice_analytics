@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VOXLENS · Voice Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Grain / paper texture overlay -->
+<div class="grain"></div>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">▣</span>
+    <span class="brand-name">VOXLENS</span>
+    <span class="brand-tag">/ voice analytics lab</span>
+  </div>
+  <div class="status">
+    <span class="dot" id="status-dot"></span>
+    <span id="status-text">system idle</span>
+  </div>
+</header>
+
+<main class="layout">
+
+  <!-- ============ LEFT: UPLOAD ============ -->
+  <section class="panel upload-panel" id="upload-panel">
+    <div class="panel-head">
+      <span class="kicker">001 · INTAKE</span>
+      <h1 class="display">Upload a<br/><em>call recording</em></h1>
+      <p class="lede">
+        Drop an audio file. We transcribe, summarise, score sentiment, and surface
+        KPIs for the conversation — agent performance, customer satisfaction,
+        objection signals, and more.
+      </p>
+    </div>
+
+    <form id="upload-form" class="form">
+      <label class="dropzone" id="dropzone">
+        <input type="file" id="audio-input" accept="audio/*,.mp3,.wav,.m4a,.ogg,.flac,.webm" hidden />
+        <div class="dropzone-inner">
+          <div class="dropzone-icon">◉</div>
+          <div class="dropzone-text">
+            <strong>Drop audio here</strong>
+            <span>or click to browse · mp3 · wav · m4a · ogg · flac</span>
+          </div>
+          <div class="dropzone-file" id="file-label"></div>
+        </div>
+      </label>
+
+      <fieldset class="context">
+        <legend>Conversation context</legend>
+        <label class="radio">
+          <input type="radio" name="context" value="sales" />
+          <span>Sales call</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="context" value="support" checked />
+          <span>Support call</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="context" value="general" />
+          <span>General</span>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="btn-primary" id="analyze-btn" disabled>
+        <span>Run analysis</span>
+        <span class="arrow">→</span>
+      </button>
+    </form>
+
+    <div class="footnote">
+      <span class="tick">●</span> Audio is processed on-server. Whisper transcription ·
+      VADER sentiment · distilbart summarisation.
+    </div>
+  </section>
+
+  <!-- ============ RIGHT: RESULTS ============ -->
+  <section class="panel results-panel" id="results-panel">
+
+    <!-- IDLE STATE -->
+    <div class="state state-idle" id="state-idle">
+      <div class="ascii-art">
+<pre>
+   ╱╲    ╱╲    ╱╲
+  ╱  ╲  ╱  ╲  ╱  ╲
+ ╱    ╲╱    ╲╱    ╲
+─────────────────────
+ awaiting transmission
+</pre>
+      </div>
+      <p>No analysis yet. Upload a call to begin.</p>
+    </div>
+
+    <!-- LOADING STATE -->
+    <div class="state state-loading hidden" id="state-loading">
+      <div class="loader">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <h3 id="loading-stage">Transcribing audio…</h3>
+      <p class="loading-sub">This can take 30s – 2m depending on file length.</p>
+    </div>
+
+    <!-- ERROR STATE -->
+    <div class="state state-error hidden" id="state-error">
+      <h3>Something went wrong</h3>
+      <p id="error-text"></p>
+    </div>
+
+    <!-- RESULTS STATE -->
+    <div class="state state-results hidden" id="state-results">
+
+      <!-- Top metadata strip -->
+      <div class="meta-strip">
+        <div class="meta-item">
+          <span class="meta-label">FILE</span>
+          <span class="meta-value" id="meta-file">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">DURATION</span>
+          <span class="meta-value" id="meta-duration">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">WORDS</span>
+          <span class="meta-value" id="meta-words">—</span>
+        </div>
+        <div class="meta-item">
+          <span class="meta-label">CONTEXT</span>
+          <span class="meta-value" id="meta-context">—</span>
+        </div>
+      </div>
+
+      <!-- KPI cards -->
+      <div class="kpi-grid">
+        <div class="kpi-card csat">
+          <span class="kpi-kicker">CSAT</span>
+          <div class="kpi-score" id="csat-score">—</div>
+          <div class="kpi-label" id="csat-label">—</div>
+          <div class="kpi-bar"><div class="kpi-bar-fill" id="csat-bar"></div></div>
+        </div>
+        <div class="kpi-card agent">
+          <span class="kpi-kicker">AGENT PERF</span>
+          <div class="kpi-score" id="agent-score">—</div>
+          <div class="kpi-label" id="agent-label">—</div>
+          <div class="kpi-bar"><div class="kpi-bar-fill" id="agent-bar"></div></div>
+        </div>
+        <div class="kpi-card sentiment">
+          <span class="kpi-kicker">SENTIMENT</span>
+          <div class="kpi-score" id="sent-score">—</div>
+          <div class="kpi-label" id="sent-label">—</div>
+          <div class="kpi-bar"><div class="kpi-bar-fill" id="sent-bar"></div></div>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="block">
+        <h2 class="block-head"><span class="num">002</span> SUMMARY</h2>
+        <ul class="bullet-list" id="summary-bullets"></ul>
+      </div>
+
+      <!-- Sentiment trajectory -->
+      <div class="block">
+        <h2 class="block-head"><span class="num">003</span> SENTIMENT ARC</h2>
+        <div class="trajectory" id="trajectory"></div>
+      </div>
+
+      <!-- Context-specific KPIs -->
+      <div class="block" id="context-block">
+        <h2 class="block-head"><span class="num">004</span> CONTEXT KPIs</h2>
+        <div class="context-grid" id="context-grid"></div>
+      </div>
+
+      <!-- Keywords -->
+      <div class="block">
+        <h2 class="block-head"><span class="num">005</span> TOP KEYWORDS</h2>
+        <div class="chips" id="keywords"></div>
+      </div>
+
+      <!-- Transcript -->
+      <div class="block">
+        <h2 class="block-head">
+          <span class="num">006</span> TRANSCRIPT
+          <button class="btn-ghost" id="copy-transcript">copy</button>
+        </h2>
+        <div class="transcript" id="transcript"></div>
+      </div>
+
+      <!-- Download JSON -->
+      <div class="actions">
+        <button class="btn-ghost" id="download-json">Download full JSON ↓</button>
+        <button class="btn-ghost" id="new-analysis">New analysis ↺</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>VOXLENS · voice analytics web application</span>
+  <span>v1.0 · built for Assignment 2</span>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

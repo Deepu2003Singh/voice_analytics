@@ -1,0 +1,39 @@
+SAMPLE INPUT — Support Call (transcript representation of audio)
+================================================================
+Filename: sample_support_call.mp3
+Duration: 3 minutes 12 seconds
+Context selected by user: SUPPORT
+
+(In a real run, the user uploads the .mp3 file. For this sample we
+include the equivalent transcript that Whisper would produce, so the
+output below is reproducible without running the audio pipeline.)
+
+---
+
+Agent:      Thank you for calling NovaPay support, this is Priya speaking.
+            How can I help you today?
+
+Customer:   Hi Priya, yeah, I'm calling because my last invoice charged me
+            twice for the same month. It's really frustrating, I've been
+            a customer for three years and this has never happened.
+
+Agent:      I completely understand, and I apologise for the inconvenience.
+            Let me look into your account right away. Can you confirm the
+            email address on the account?
+
+Customer:   Yeah, it's r.mehta at gmail dot com.
+
+Agent:      Thank you. I can see the duplicate charge here — there were two
+            transactions on the eighth of May. I'll process a refund for
+            the duplicate amount right now, and it should reflect in your
+            account in three to five business days.
+
+Customer:   Oh wow, that was fast. Thank you so much, I really appreciate it.
+
+Agent:      Happy to help. Just to confirm, I'm also adding a note on your
+            account so this doesn't happen again. Is there anything else
+            I can help you with?
+
+Customer:   No, that's perfect. Honestly, great service. Thanks again.
+
+Agent:      Thank you for your patience, have a wonderful day.
